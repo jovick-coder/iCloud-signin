@@ -78,7 +78,7 @@ nav .container{
   .chat-section .friend-div .right .profile-pix-div img{
       margin: auto;
       width: 100%;
-      filter: invert();
+      /* filter: invert(); */
   }
   .chat-section .friend-div .right .profile-name{
       margin: auto 10px;
