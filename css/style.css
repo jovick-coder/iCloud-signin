@@ -1,0 +1,105 @@
+nav .container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  nav .container .right{
+      display: flex;
+  }
+  nav .container .right .icon-div img{
+      width: 25px;
+      margin: 0;
+      padding: 0;
+  }
+  nav .container .right .top-name{
+      margin: auto 40px;
+      font-size: large;
+      font-weight: bold;
+      width: 120px;
+      /* overflow: hidden; */
+      /* background-color: red; */
+  }
+
+  nav .container .right .top-name span{
+      /* background-color: rosybrown; */
+      max-width: 130px;
+      overflow: hidden;
+  }
+
+  nav .container .group-icon-div{
+      display: flex;
+      /* justify-self: ; */
+      float: right;
+      /* background-color: red; */
+
+  }
+  nav .container .group-icon-div .icon-div img{
+      width: 25px;
+      margin: auto 10px;
+  }
+
+  .search-section .search-div {
+      width: 100%;
+      padding: 20px;
+  }
+
+  .search-section .search-div input{
+      display: block;
+      width: 100%;
+      background-color: #ddd;
+      /* margin: 10px 10px; */
+  }
+
+  .chat-section .friend-div{
+      margin-top: 20px;
+  }
+
+  .chat-section h3{
+      /* color: #ddd; */
+      margin: 0 20px;
+  }
+
+  .chat-section .friend-div .container, .right{
+      display: flex;
+      justify-content: space-between;
+  }
+  .chat-section .friend-div .right .profile-pix-div{
+      background-color: #ddd;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      /* align-items: center; */
+      /* padding: auto; */
+      overflow: hidden;
+      border-radius: 50%;
+  }
+  .chat-section .friend-div .right .profile-pix-div img{
+      margin: auto;
+      width: 100%;
+      filter: invert();
+  }
+  .chat-section .friend-div .right .profile-name{
+      margin: auto 10px;
+      /* color: red; */
+      font-size: large;
+      font-weight: bold;
+  }
+  .chat-section .friend-div .right .profile-name .sub{
+    margin: auto 10px;
+    /* color: red; */
+    font-size: small;
+    font-weight:lighter;
+    color: #ddd;
+  }
+  .chat-section .friend-div .icon-div{
+      /* background-color: tan; */
+      /* margin-top: auto; */
+      display: flex;
+  }
+  .chat-section .friend-div .icon-div img{
+      /* background-color: red; */
+      width: 30px;
+      
+  }
