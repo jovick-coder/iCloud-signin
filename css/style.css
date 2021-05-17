@@ -123,7 +123,8 @@ nav .container{
 .chat-div{
 	width: 100%;
 	/* background-color: wheat; */
-	display: flex;
+    display: flex;
+    background-color: white;
 	margin-bottom: 20px;
 }
 .chat-div .container{
