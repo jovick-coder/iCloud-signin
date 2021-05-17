@@ -1,3 +1,13 @@
+a{
+	text-decoration: none;
+	/* align-items: flex-end; */
+	display: flex;
+	color: black;
+}
+nav{
+    background-color: white;
+
+}
 nav .container{
     display: flex;
     flex-wrap: wrap;
@@ -40,6 +50,9 @@ nav .container{
       margin: auto 5px;
   }
 
+  .search-section {
+      margin-top: 70px;
+  }
   .search-section .search-div {
       width: 100%;
       padding: 20px;
@@ -101,5 +114,123 @@ nav .container{
   .chat-section .friend-div .icon-div img{
       /* background-color: red; */
       width: 30px;
+			/* filter: invert(); */
       
   }
+
+
+
+.chat-div{
+	width: 100%;
+	/* background-color: wheat; */
+	display: flex;
+	margin-bottom: 20px;
+}
+.chat-div .container{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	/* background-color: yellowgreen; */
+	justify-content: space-around;
+}
+.chat-div .mic{
+	background-color: rgb(21, 143, 225);
+	padding: 10px;
+	margin-bottom: 2px; 
+	margin: auto 5px;
+	border-radius: 500%;
+	/* margin: auto; */
+}
+.chat-div .mic img{
+	display: flex;
+	margin: auto auto;
+	filter: invert();
+}
+.chat-div .container .group-icon-div{
+	display: flex;
+	justify-content: space-around;
+	margin: auto 0;
+}
+.chat-div .container .group-icon-div .icon-div{
+	margin: 5px;
+}
+
+
+
+@media (min-width: 0px) and (max-width: 350px){
+	nav .container .right{
+		display: flex;
+}
+nav .container .right .icon-div img{
+		width: 25px;
+		margin: 0;
+		padding: 0;
+}
+nav .container .right .top-name{
+		margin: auto 40px;
+		font-size: large;
+		font-weight: bold;
+		width: 100px;
+		/* overflow: hidden; */
+		/* background-color: red; */
+}
+
+nav .container .right .top-name span{
+		/* background-color: rosybrown; */
+		max-width: 100px;
+		overflow: hidden;
+}
+
+nav .container .group-icon-div{
+		display: flex;
+		/* justify-self: ; */
+		float: right;
+		/* background-color: red; */
+
+}
+nav .container .group-icon-div .icon-div img{
+		width: 20px;
+		margin: auto 5px;
+}
+.chat-div .mic{
+	background-color: rgb(21, 143, 225);
+	padding: 5px;
+	
+	margin: auto 1px;
+	border-radius: 500%;
+	
+}
+
+.chat-div .container .group-icon-div .icon-div{
+	margin: 1px;
+}
+.profile-pix-div{
+	background-color: #ddd;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	/* align-items: center; */
+	/* padding: auto; */
+	overflow: hidden;
+	border-radius: 50%;
+}
+ .profile-pix-div img{
+	margin: auto;
+	width: 100%;
+}
+}
+
+.profile-pix-div{
+	background-color: #ddd;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	/* align-items: center; */
+	/* padding: auto; */
+	overflow: hidden;
+	border-radius: 50%;
+}
+ .profile-pix-div img{
+	margin: auto;
+	width: 100%;
+}
